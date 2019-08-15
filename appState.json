@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "b32a64e9-12cd-48b0-8571-9703c333f660": {
+        "id": "b32a64e9-12cd-48b0-8571-9703c333f660",
+        "parent": null,
+        "name": "Retest618",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "7831cf3e-cf93-4b9d-9b6a-86cca63d536a"
+        ],
+        "isRemovable": false,
+        "filePath": "Retest618"
+      },
+      "7831cf3e-cf93-4b9d-9b6a-86cca63d536a": {
+        "id": "7831cf3e-cf93-4b9d-9b6a-86cca63d536a",
+        "parent": "b32a64e9-12cd-48b0-8571-9703c333f660",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Retest618/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "b32a64e9-12cd-48b0-8571-9703c333f660",
+    "openFiles": [
+      "7831cf3e-cf93-4b9d-9b6a-86cca63d536a"
+    ],
+    "currentFileId": "7831cf3e-cf93-4b9d-9b6a-86cca63d536a",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Retest618",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565844819944
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Retest618",
+      "url": "https://github.com/Kumudikatest/Retest618"
+    }
+  }
+}
