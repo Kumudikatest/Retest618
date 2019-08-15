@@ -1,4 +1,5 @@
-exports.handler = function(event, context, callback) {
+exports.handler = function (event, context, callback) {
     //hirudinee comment
-    callback(null, {"message": "Successfully executed"});
+    //kadd
+    callback(null, { "message": "Successfully executed" });
 }
